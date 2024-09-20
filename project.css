@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.top-bar span {
+    margin-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-left: 800px;
+}
+
+.social-icons a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.logo-img {
+    height: 40px; 
+    margin-right: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover,
+.home a {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+.home a:hover{
+    background-color: #0056b3;
+}
+
+nav {
+    margin-left: 600px;
+}
+
+.appointment-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px; 
+}
+
+.appointment-btn:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+
+.hero {
+    display: flex;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.hero-text {
+    flex: 1;
+    padding: 50px 20px;
+    background-color: #007bff;
+    margin-top: 24px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats div {
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #fff; 
+}
+
+.stats div:last-child {
+    border-right: none; 
+}
+
+.stats h2 {
+    font-size: 24px;
+}
+
+.hero-image {
+    flex: 1;
+    background-image: url('WhatsApp Image 2024-07-15 at 23.04.35_fcd11891.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 500px;
+}
+
+.hero-image h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 120px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.down-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
